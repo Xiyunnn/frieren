@@ -9,7 +9,7 @@ const execAsync = util.promisify(exec);
 (async () => {
 	try {
 		const OPEN_API_SCHEMA_URL =
-			"https://scdn.lovita.io/openapi/itsrose.json";
+			"https://Xiyunnn.github.io/openapi/itsrose.json";
 
 		// Remove and recreate dist directory
 		await fs.rm("dist", { recursive: true, force: true });
